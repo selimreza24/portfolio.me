@@ -1,0 +1,408 @@
+@media screen and (max-width: 960px){
+
+    /* menu style */
+    nav ul{
+        display:none;
+        position:absolute;
+        top:45px;
+        right:0;
+        background-color:#333;
+        width:50%;
+        text-align:center;
+        height:400px;
+    }
+    nav ul li{
+        display:block !important;
+    }
+    nav ul li a{
+        width:100%;
+        margin:10px 0;
+
+    }
+    /* menu style */
+    /* menuToggleBtn start */
+    nav .menuToggleBtn{
+        display:block;
+    }
+    /* menuToggleBtn end */
+    /* social_icons start */
+    nav .social_icons{
+        display:block;
+    }
+    /* social_icons end */
+
+
+    /* Hero style */
+    #hero .hero_heading{
+        width:300px;
+        font-size:13px;
+    }
+
+    #hero .hero_heading::after{
+        position:absolute;
+        content:'';
+        top:-10px;
+        left:30%;
+        border-top:10px solid transparent;
+        border-left:10px solid rgba(128, 128, 128, 0.712);
+        border-right:10px solid transparent;
+        border-bottom:10px solid rgba(128, 128, 128, 0.712);
+        transform: rotate(135deg);
+        
+    }
+    /* Hero style */
+    /* typeing style start */
+    #hero .typingText h2{
+        font-size:15px;
+        font-weight: 600;
+    }
+    /* typeing style end */
+    /* hero_items */
+    #hero .hero_items{
+        padding-top:120px;
+    }
+    /* hero_items */
+
+    /* about_wrap start */
+    #about .about_wrap{
+        display:block;
+        overflow: hidden;
+    }
+    #about .about_photo{
+        width: 100%;
+       
+    }
+    /* abot text */
+    #about .about_text{
+        width:100%;
+        margin:0;
+        margin-top:80px !important;
+        
+    }
+    /* abot text */
+    /* about_wrap end */
+
+    /* skill bar */
+    #skills .skill_bar h2{
+        font-size:16px;
+        text-align: left;
+        margin-right:100px;
+        width:0;
+        font-weight: 400;
+    }
+    /* skill bar */
+    
+
+    /* services start */
+    #services .service_plate_wrap{
+        display: grid;
+       grid-template-columns: auto;
+       justify-content: center;
+       align-items: center;
+        
+    }
+    
+    #services .service_plate_wrap .service_plate{
+        width:700px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+        margin-left:200px;
+    }
+    #services .service_btn{
+        padding:0px;
+    }
+    #services .service_btn a{
+        font-size:20px !important;
+        
+    }
+    #services .service_title h3{
+        font-size:18px !important;
+        font-weight: 400 !important;
+    }
+    /* services end */
+
+    /* contact section start */
+     
+    #contact_form .contact_content_wrap{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    /* contact_content_wrap */
+    /* contact left */
+    #contact_form .contact_left{
+        flex-basis:100%;
+        
+    }
+    /* contact left */
+    /* contact right */
+    #contact_form .contact_right{
+        flex-basis:100%;
+        margin-left: 0px;
+        margin-top:20px;
+    }
+    /* contact section end */
+    /* Footer start  */
+    #footer .footer_wrap{
+        display:block;
+    }
+    #footer .footer_about{
+        flex-basis:100%;
+    }
+    #footer .footer_social{
+        flex-basis: 100%;
+        margin-top:50px;
+        margin-left:0px;
+    }
+    
+    /* Footer end */
+
+    
+}
+
+@media screen and (max-width:1080px){
+    #services .service_btn a{
+        font-size:15px;
+    }
+    #services .service_title h3{
+        font-size:15px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width:800px){
+    #services .service_plate_wrap .service_plate{
+        width:600px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+        margin-left:150px;
+    }
+}
+@media screen and (max-width:700px){
+    #services .service_plate_wrap .service_plate{
+        width:500px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+        margin-left:100px;
+    }
+}
+@media screen and (max-width:600px){
+    #services .service_plate_wrap .service_plate{
+        width:400px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+        margin-left:50px;
+    }
+}
+@media screen and (max-width:480px){
+    #services .service_plate_wrap .service_plate{
+        width:300px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+       margin-left:5px;
+    }
+
+    
+    #footer .footer_copyright .footer_copyright_symbol{
+        font-size:12px !important;
+    }
+    #footer .footer_copyright .footer_copyright_symbol p span{
+        font-size:18px !important;
+    }
+    
+
+
+
+}
+
+@media screen and (max-width:360px) {
+
+    #services .service_plate_wrap .service_plate{
+        width:300px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+       margin-left:5px;
+    }
+
+    
+    #footer .footer_copyright .footer_copyright_symbol{
+        font-size:12px !important;
+    }
+    #footer .footer_copyright .footer_copyright_symbol p span{
+        font-size:18px !important;
+    }
+
+
+    nav ul{
+        display:none;
+        position:absolute;
+        top:45px;
+        right:0;
+        background-color:#333;
+        width:50%;
+        text-align:center;
+        height:400px;
+    }
+    nav ul li{
+        display:block !important;
+    }
+    nav ul li a{
+        width:100%;
+        margin:10px 0;
+
+    }
+    /* menu style */
+    /* menuToggleBtn start */
+    nav .menuToggleBtn{
+        display:block;
+    }
+    /* menuToggleBtn end */
+    /* social_icons start */
+    nav .social_icons{
+        display:block;
+    }
+    /* social_icons end */
+
+
+    /* Hero style */
+    #hero .hero_heading{
+        width:300px;
+        font-size:13px;
+    }
+
+    #hero .hero_heading::after{
+        position:absolute;
+        content:'';
+        top:-10px;
+        left:30%;
+        border-top:10px solid transparent;
+        border-left:10px solid rgba(128, 128, 128, 0.712);
+        border-right:10px solid transparent;
+        border-bottom:10px solid rgba(128, 128, 128, 0.712);
+        transform: rotate(135deg);
+        
+    }
+    /* Hero style */
+    /* typeing style start */
+    #hero .typingText h2{
+        font-size:15px;
+        font-weight: 600;
+    }
+    /* typeing style end */
+    /* hero_items */
+    #hero .hero_items{
+        padding-top:120px;
+    }
+    /* hero_items */
+
+    /* about_wrap start */
+    #about .about_wrap{
+        display:block;
+        overflow: hidden;
+    }
+    #about .about_photo{
+        width: 100%;
+       
+    }
+    /* abot text */
+    #about .about_text{
+        width:100%;
+        margin:0;
+        margin-top:80px !important;
+        
+    }
+    /* abot text */
+    /* about_wrap end */
+
+    /* skill bar */
+    #skills .skill_bar h2{
+        font-size:16px;
+        text-align: left;
+        margin-right:100px;
+        width:0;
+        font-weight: 400;
+    }
+    /* skill bar */
+    
+
+    /* services start */
+    #services .service_plate_wrap{
+        display: grid;
+       grid-template-columns: auto;
+       justify-content: center;
+       align-items: center;
+        
+    }
+    
+    #services .service_plate_wrap .service_plate{
+        width:300px;
+        text-align:center;
+        margin-right: 0px;
+    }
+    #services .service_content li{
+        margin-left:0px;
+    }
+    #services .service_btn{
+        padding:0px;
+    }
+    #services .service_btn a{
+        font-size:20px !important;
+        
+    }
+    #services .service_title h3{
+        font-size:18px !important;
+        font-weight: 400 !important;
+    }
+    /* services end */
+
+    /* contact section start */
+     
+    #contact_form .contact_content_wrap{
+        display:grid;
+        grid-template-columns: auto;
+    }
+    /* contact_content_wrap */
+    /* contact left */
+    #contact_form .contact_left{
+        flex-basis:100%;
+        
+    }
+    /* contact left */
+    /* contact right */
+    #contact_form .contact_right{
+        flex-basis:100%;
+        margin-left: 0px;
+        margin-top:20px;
+    }
+    
+    /* contact section end */
+    /* Footer start  */
+    #footer .footer_wrap{
+        display:block;
+    }
+    #footer .footer_about{
+        flex-basis:100%;
+    }
+    #footer .footer_social{
+        flex-basis: 100%;
+        margin-top:50px;
+        margin-left:0px;
+    }
+    
+    
+
+
+
+
+}
+
